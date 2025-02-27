@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.nav-bar-main {
+  font-family: "Roboto", serif;
+  .company-logo {
+    height: 30px;
+    width: 30px;
+    margin: 1rem 0rem 0rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icons-con:hover {
+    background-color: #c7c9cc;
+    border-radius: 80%;
+    padding: 5px 5px 2px 5px;
+    .icons{
+        font-size: 25px;
+    }
+  }
+  .icons {
+    font-size: 30px;
+    cursor: pointer;
+    color: #4b4b4c;
+  }
+  .share-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 100px;
+    width: 100px;
+    padding: 0rem 1rem 0rem 1rem;
+    background-color: #c2e7ff;
+    cursor: pointer;
+    .share-icon {
+      font-size: 20px;
+      cursor: pointer;
+      color: #4b4b4c;
+    }
+    p {
+      font-family: "Roboto", serif;
+      color: #4b4b4c;
+      font-size: 14px;
+      margin-left: 5px;
+    }
+  }
+  .nav-bar {
+    .spreadsheet-input-name {
+      margin-left: 1.5rem;
+      .spreadsheet-input-type {
+        border: none;
+        height: 30px;
+        width: 200px;
+        font-size: 22px;
+        color: #777879;
+      }
+    }
+    .nav-tab-con {
+      .nav-tab {
+        color: #202124;
+        padding: 0;
+        margin: 0;
+        text-transform: capitalize;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+      }
+    }
+  }
+}
